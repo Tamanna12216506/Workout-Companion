@@ -1,0 +1,60 @@
+/* Navbar Styles */
+/* Navbar Styles */
+.navbar {
+    background-color: #333;  /* Dark background */
+    padding: 10px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1050; /* Ensures navbar stays on top */
+}
+
+
+.navbar .navbar-brand {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #fff !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    background-color: #555;  /* Darken the background when hovering */
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.navbar-toggler-icon {
+    background-color: #333;
+}
+
+/* Customizations for Larger Screens */
+@media (min-width: 992px) {
+    .navbar .navbar-nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 10px 25px;
+    }
+}
+
+/* Add spacing between navbar and content */
+body {
+    margin-top: 80px; /* Adjust this based on the height of your navbar */
+}

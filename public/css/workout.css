@@ -1,0 +1,41 @@
+/* Plan Your Workout Styling */
+
+.plan-header h1 {
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    color: #1f1f1f;
+}
+
+.plan-header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.workout-form {
+    background-color: #f7f7f7;
+    border-radius: 12px;
+    border-left: 5px solid #28a745;
+}
+
+.workout-form input {
+    border-radius: 6px;
+}
+
+.workout-form button {
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.table th, .table td {
+    vertical-align: middle !important;
+}
+
+.summary p {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.alert-success {
+    font-weight: bold;
+}
